@@ -25,4 +25,4 @@ jobs:
           git config user.email "ditosuryowicaksono@gmail.com"
           git add --all
           git commit -m "Automatic code format"
-          git push
+          git push --forced
