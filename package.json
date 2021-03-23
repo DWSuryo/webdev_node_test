@@ -2,12 +2,13 @@
   "name": "workshop",
   "version": "1.0.0",
   "main": "index.js",
+  "author": "wool",
+  "license": "ISC",
+  "description": "wololo",
+  
   "scripts": {
     "prettify": "gulp"
   },
-  "author": "wool",
-  "license": "ISC",
-  "description": "",
   "devDependencies": {
     "gulp": "^4.0.2",
     "gulp-prettier": "^3.0.0",
