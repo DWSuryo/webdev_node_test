@@ -5,7 +5,6 @@
   "author": "wool",
   "license": "ISC",
   "description": "wololo",
-  
   "scripts": {
     "prettify": "gulp"
   },

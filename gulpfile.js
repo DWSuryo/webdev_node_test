@@ -8,9 +8,7 @@ const src = gulp.src;
 const dest = gulp.dest;
 // Definisikan sebuah task untuk memformat file-file kode
 function percantikKode() {
-  return src(["./**/*", "!node_modules/**/*"])
-  .pipe(prettier())
-  .pipe(dest("."));
+  return src(["./**/*", "!node_modules/**/*"]).pipe(prettier()).pipe(dest("."));
 }
 // Buat agar task tersebut bisa dijalankan dari luar
 exports.default = percantikKode;
